@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Trained policy checkpoint (large — ~900MB; download from training output instead)
+policy_cuda_libre/
+
+# Camera captures / training outputs
+outputs/
+
+# Local dataset backups
+*.bak-*
+datasets/
